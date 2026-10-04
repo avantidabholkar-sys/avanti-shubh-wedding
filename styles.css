@@ -717,6 +717,7 @@ h3 {
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 html.gate { overflow: hidden; }
+html.gate .nav-switch { display: none; } /* the name gate covers the bar; don't offer "Not you?" until a guest is showing */
 html:not(.gate) .welcome { display: none; }
 
 .welcome {
@@ -795,13 +796,13 @@ html:not(.gate) .welcome { display: none; }
 .welcome-miss a { color: var(--muted); }
 
 /* ===== Personal note dialog ===== */
-/* "Your note" uses the same title style as the other links, grouped at the right end just before RSVP */
-.nav .nav-note {
-  margin-left: auto;
-}
+/* "Your note" and "Not you?" sit at the right end, just before RSVP */
+.nav .nav-note,
+.nav .nav-switch { margin-left: auto; }
 @media (min-width: 761px) {
-  /* flex gap is 2.75rem; pull RSVP back so it sits ~0.75rem (12px) from Your note */
-  .nav:has(.nav-note:not([hidden])) .nav-rsvp { margin-left: calc(1.5rem - 2.75rem); }
+  /* flex gap is 2.75rem; pull the next item back so the right-hand cluster sits ~0.75rem apart */
+  .nav:has(.nav-note:not([hidden])) .nav-switch,
+  .nav:has(.nav-switch) .nav-rsvp { margin-left: calc(.75rem - 2.75rem); }
 }
 
 dialog.note {
@@ -893,6 +894,17 @@ dialog.note form { margin: 0; }
   dialog.note { width: 100vw; max-width: none; margin: auto 0 0; border-radius: 7px 7px 0 0; max-height: 92vh; }
   .note-photo { width: 110px; height: 110px; }
   .nav .nav-note { margin: 0; }
+  .nav .nav-switch {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .nav .nav-switch::after { display: none; }
+  .nav:has(.nav-switch) .nav-rsvp { margin-left: .65rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

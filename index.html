@@ -10,8 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Italiana&family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <!-- decide before first paint whether the Welcome gate shows (no ?g= link and nothing remembered) -->
-  <script>if (!/[?&]g=\w/.test(location.search) && !localStorage.getItem("g")) document.documentElement.classList.add("gate");</script>
+  <!-- decide before first paint whether the Welcome gate shows (no guest code, or ?g= to start over) -->
+  <script>
+    (function () {
+      var q = new URLSearchParams(location.search);
+      if (!q.get("g") && (q.has("g") || !localStorage.getItem("g"))) document.documentElement.classList.add("gate");
+    })();
+  </script>
 </head>
 <body class="home" id="top">
 
@@ -61,6 +66,7 @@
   <a href="#registry">Registry</a>
   <a class="nav-note" href="#note" hidden>Your note</a>
   </div>
+  <a class="nav-switch" href="?g=">Not you?</a>
   <a class="nav-rsvp" href="[[RSVP_URL]]" target="_blank" rel="noopener">RSVP</a>
 </nav>
 

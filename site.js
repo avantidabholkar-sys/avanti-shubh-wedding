@@ -289,7 +289,11 @@ function gate(onResolved) {
 
 (async () => {
   const params = new URLSearchParams(location.search);
-  if (params.has('g') && !params.get('g')) { localStorage.removeItem('g'); document.documentElement.classList.add('gate'); } // "?g=" = not you? start over
+  if (params.has('g') && !params.get('g')) { // "?g=" (the "Not you?" link) = forget this guest and show the name gate
+    localStorage.removeItem('g');
+    document.documentElement.classList.add('gate');
+    document.getElementById('welcome-name')?.focus();
+  }
   const code = params.get('g') || localStorage.getItem('g');
 
   async function load(c) {
