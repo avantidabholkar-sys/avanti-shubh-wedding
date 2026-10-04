@@ -1,0 +1,838 @@
+[
+  {
+    "code": "7c7a8702",
+    "household": "Dabholkar",
+    "names": [
+      "Avanti",
+      "Apurva",
+      "Smita",
+      "Ketaki",
+      "Rajan",
+      "Ahilya",
+      "Ameya"
+    ]
+  },
+  {
+    "code": "bdacd59c",
+    "household": "Divekar",
+    "names": [
+      "Ajay",
+      "Sonali D",
+      "Siya",
+      "Nirja"
+    ]
+  },
+  {
+    "code": "611c2e07",
+    "household": "Gonzalez",
+    "names": [
+      "Glo",
+      "Gustavo",
+      "Carola",
+      "Armando"
+    ]
+  },
+  {
+    "code": "f952920f",
+    "household": "Purijain",
+    "names": [
+      "Deets",
+      "Arjun"
+    ]
+  },
+  {
+    "code": "a6c4cf2e",
+    "household": "Goel (DSG & Aranksha)",
+    "names": [
+      "DSG",
+      "Aranksha"
+    ]
+  },
+  {
+    "code": "ab7c9bfc",
+    "household": "Chanchani",
+    "names": [
+      "Sonali"
+    ]
+  },
+  {
+    "code": "003303b3",
+    "household": "Prabhu (Anushka & Sanjay)",
+    "names": [
+      "Anushka",
+      "Sanjay"
+    ]
+  },
+  {
+    "code": "64e2c73e",
+    "household": "Suthakar",
+    "names": [
+      "Harns",
+      "Amer"
+    ]
+  },
+  {
+    "code": "e6e5050b",
+    "household": "Kesavabotla",
+    "names": [
+      "Vikram"
+    ]
+  },
+  {
+    "code": "41375a04",
+    "household": "Bedi",
+    "names": [
+      "Neil",
+      "Katie"
+    ]
+  },
+  {
+    "code": "50507b3a",
+    "household": "Ferreyros",
+    "names": [
+      "Sylvi",
+      "Enrique"
+    ]
+  },
+  {
+    "code": "a6f0854f",
+    "household": "Engberg",
+    "names": [
+      "Kate",
+      "Chris"
+    ]
+  },
+  {
+    "code": "c28f4162",
+    "household": "Salomon",
+    "names": [
+      "Andrea",
+      "Charlie"
+    ]
+  },
+  {
+    "code": "f38dfa4a",
+    "household": "Sabnis",
+    "names": [
+      "Ria",
+      "Armaan",
+      "Nupura Aunty",
+      "Shobhan Uncle"
+    ]
+  },
+  {
+    "code": "bea1d5d5",
+    "household": "Nadkarni",
+    "names": [
+      "Renu",
+      "James",
+      "Rohit",
+      "Neeta Aunty",
+      "Avi Uncle"
+    ]
+  },
+  {
+    "code": "307c1538",
+    "household": "Kothare",
+    "names": [
+      "Mohit Uncle",
+      "Rachana Aunty",
+      "Aarya",
+      "Sharanya"
+    ]
+  },
+  {
+    "code": "ed580ea6",
+    "household": "Atre",
+    "names": [
+      "Sonali Aunty",
+      "Anand Uncle",
+      "Rewa",
+      "Sahil",
+      "Uma"
+    ]
+  },
+  {
+    "code": "769193ea",
+    "household": "Hajarnis",
+    "names": [
+      "Mitali Aunty",
+      "Milind Uncle",
+      "Meera",
+      "Mohit",
+      "Aditi"
+    ]
+  },
+  {
+    "code": "1a1e8dfd",
+    "household": "Goel (Akshay & Megha)",
+    "names": [
+      "Akshay",
+      "Megha"
+    ]
+  },
+  {
+    "code": "cd852690",
+    "household": "Shankar",
+    "names": [
+      "Gauri Aunty",
+      "Kumar Uncle"
+    ]
+  },
+  {
+    "code": "79e6bf60",
+    "household": "Tawde",
+    "names": [
+      "Meghana Aunty",
+      "Kiran Uncle",
+      "Rohan",
+      "Sonali Prasad",
+      "Prianca",
+      "Amiya"
+    ]
+  },
+  {
+    "code": "fa17f10e",
+    "household": "Samant (Aditya & Ketaki)",
+    "names": [
+      "Aditya",
+      "Ketaki"
+    ]
+  },
+  {
+    "code": "6b675956",
+    "household": "Soparkar",
+    "names": [
+      "Sujata aunty",
+      "Nagesh uncle",
+      "Nandini aunty",
+      "Srini uncle"
+    ]
+  },
+  {
+    "code": "3a8c3ef6",
+    "household": "Desai",
+    "names": [
+      "Sheena"
+    ]
+  },
+  {
+    "code": "f7428a46",
+    "household": "Gavankar (Mittu & Prasad)",
+    "names": [
+      "Mittu aunty",
+      "Prasad mama",
+      "Charuta",
+      "Brian Furey"
+    ]
+  },
+  {
+    "code": "00443d5a",
+    "household": "Dighe",
+    "names": [
+      "Rajiv Uncle",
+      "Sangeeta Aunty",
+      "Shibani",
+      "Avnish"
+    ]
+  },
+  {
+    "code": "ebd860c1",
+    "household": "Tinaikar",
+    "names": [
+      "Ranjit Uncle",
+      "Deepika Aunty",
+      "Ananya",
+      "Kabir",
+      "Amar"
+    ]
+  },
+  {
+    "code": "2a1282e9",
+    "household": "Rajgopal",
+    "names": [
+      "Neena Atya",
+      "Shankar Uncle",
+      "Nikita",
+      "Akshay"
+    ]
+  },
+  {
+    "code": "687be43a",
+    "household": "Kulkarni",
+    "names": [
+      "Vrinda Aunty",
+      "Sudhir Uncle"
+    ]
+  },
+  {
+    "code": "d92a2a09",
+    "household": "Prabhu (Anita & Sunil)",
+    "names": [
+      "Anita Aunty",
+      "Sunil Uncle",
+      "Nupur",
+      "Nupur husband"
+    ]
+  },
+  {
+    "code": "840236ac",
+    "household": "Kher",
+    "names": [
+      "Neetu Aunty",
+      "Yogesh Uncle"
+    ]
+  },
+  {
+    "code": "f9164ff9",
+    "household": "Gokarn",
+    "names": [
+      "Aparna Aunty",
+      "Nikoo",
+      "Chintan",
+      "Saroo",
+      "Ghalib"
+    ]
+  },
+  {
+    "code": "d15e20ce",
+    "household": "Barnes",
+    "names": [
+      "Zach Barnes",
+      "Christina"
+    ]
+  },
+  {
+    "code": "aa2f0310",
+    "household": "Wucherpfennig",
+    "names": [
+      "Thomas",
+      "Raena"
+    ]
+  },
+  {
+    "code": "c7db1bfa",
+    "household": "Naziazeni",
+    "names": [
+      "Victor",
+      "Veronica"
+    ]
+  },
+  {
+    "code": "e9d61737",
+    "household": "Colombi",
+    "names": [
+      "Franco",
+      "Eliana"
+    ]
+  },
+  {
+    "code": "163b1d7d",
+    "household": "Kramer",
+    "names": [
+      "Gerard",
+      "Mari",
+      "Mikey"
+    ]
+  },
+  {
+    "code": "70f9dcb1",
+    "household": "Varma (Deepa)",
+    "names": [
+      "Deepa Aunty",
+      "Deepa Husband"
+    ]
+  },
+  {
+    "code": "77339863",
+    "household": "Wagh",
+    "names": [
+      "Yash",
+      "Sheetal"
+    ]
+  },
+  {
+    "code": "074b4601",
+    "household": "Samant (Anika & Tej)",
+    "names": [
+      "Anika",
+      "Tej"
+    ]
+  },
+  {
+    "code": "8bfff63f",
+    "household": "Otiv",
+    "names": [
+      "Urmi Aunty",
+      "Otiv Uncle"
+    ]
+  },
+  {
+    "code": "d642ecb2",
+    "household": "Zaparde",
+    "names": [
+      "Rashmi Aunty"
+    ]
+  },
+  {
+    "code": "4a933a44",
+    "household": "Kenkre",
+    "names": [
+      "Mrudal tai",
+      "Anil dada"
+    ]
+  },
+  {
+    "code": "81a7d264",
+    "household": "Sardesai",
+    "names": [
+      "Gira Aunty",
+      "Jagdeesh Uncle"
+    ]
+  },
+  {
+    "code": "64c2f8af",
+    "household": "Gavankar (Medha)",
+    "names": [
+      "Medha Aunty"
+    ]
+  },
+  {
+    "code": "0d1d58fe",
+    "household": "Krishnan",
+    "names": [
+      "Abhi",
+      "Varsha"
+    ]
+  },
+  {
+    "code": "6e94eef3",
+    "household": "Jayade",
+    "names": [
+      "Parineeta Aunty",
+      "Prabhakar Uncle"
+    ]
+  },
+  {
+    "code": "1d586d3a",
+    "household": "Kids Under 8",
+    "names": [
+      "Rami Bedi",
+      "Ines Ferreyros",
+      "Miraya Prabhu",
+      "Aldridge baby",
+      "Niam",
+      "Kaia",
+      "Tawde baby"
+    ]
+  },
+  {
+    "code": "df7d8099",
+    "household": "Varma (Sujata & Shubhendra)",
+    "names": [
+      "Sujata",
+      "Shubhendra",
+      "Shubh",
+      "Aneesha",
+      "Anmol"
+    ]
+  },
+  {
+    "code": "7e4672bb",
+    "household": "Sampat",
+    "names": [
+      "Naomi",
+      "Andy",
+      "Riya",
+      "Neena aunty",
+      "Hemant Uncle"
+    ]
+  },
+  {
+    "code": "b1066318",
+    "household": "Prakash",
+    "names": [
+      "Veenu aunty",
+      "Raj uncle",
+      "Sanya",
+      "Rishi",
+      "Sahil"
+    ]
+  },
+  {
+    "code": "ff0b7dc1",
+    "household": "Venk & Kavita",
+    "names": [
+      "Venk uncle",
+      "Kavita aunty",
+      "Aishwariya",
+      "Aryan"
+    ]
+  },
+  {
+    "code": "3d07efcc",
+    "household": "Singh (Roop & Sukh)",
+    "names": [
+      "Roop uncle",
+      "Sukh aunty",
+      "Sasha",
+      "Ryan",
+      "Zamir"
+    ]
+  },
+  {
+    "code": "c1eddbda",
+    "household": "Suneeta",
+    "names": [
+      "Suneeta aunty",
+      "Suneeta husband"
+    ]
+  },
+  {
+    "code": "72e0a946",
+    "household": "Varma (Manik)",
+    "names": [
+      "Mustache1",
+      "Babhi",
+      "Manik Varma (bro2)",
+      "Chachi",
+      "Harsh Varma",
+      "Shruti Varma",
+      "Devansh Varma",
+      "Guriya",
+      "Prem",
+      "Manika",
+      "Hemang",
+      "Samit Varma",
+      "Anupriya"
+    ]
+  },
+  {
+    "code": "98063bee",
+    "household": "Gene",
+    "names": [
+      "Gene",
+      "Gene +1"
+    ]
+  },
+  {
+    "code": "76a60d87",
+    "household": "Wadhawan (Tejas)",
+    "names": [
+      "Tejas",
+      "Ayushi",
+      "Mihir",
+      "Ridhima",
+      "Mahira",
+      "Shalu",
+      "Minali",
+      "Kavita"
+    ]
+  },
+  {
+    "code": "2963b274",
+    "household": "Luthra",
+    "names": [
+      "Vineet",
+      "Priti"
+    ]
+  },
+  {
+    "code": "9a858434",
+    "household": "Chang",
+    "names": [
+      "Vince",
+      "Jillian",
+      "Evan",
+      "Evan +1",
+      "Justin"
+    ]
+  },
+  {
+    "code": "ce55a3ad",
+    "household": "Patel (Kunj & Arts)",
+    "names": [
+      "Kunj",
+      "Arts"
+    ]
+  },
+  {
+    "code": "1fbfb1b5",
+    "household": "Lee",
+    "names": [
+      "Jon Lee",
+      "Michelle"
+    ]
+  },
+  {
+    "code": "76962130",
+    "household": "Chandra (Vishnu & Prerena)",
+    "names": [
+      "Vishnu",
+      "Prerena"
+    ]
+  },
+  {
+    "code": "f8cb0b4d",
+    "household": "Ching",
+    "names": [
+      "Jon Ching",
+      "Jon Ching +1"
+    ]
+  },
+  {
+    "code": "9eba9e49",
+    "household": "Boguslavsky",
+    "names": [
+      "Paul"
+    ]
+  },
+  {
+    "code": "f7732aae",
+    "household": "Parikh",
+    "names": [
+      "Sid",
+      "Shikha"
+    ]
+  },
+  {
+    "code": "9c8c313e",
+    "household": "Mynam",
+    "names": [
+      "Anurag Mynam",
+      "Nirali Mynam"
+    ]
+  },
+  {
+    "code": "c0ed3672",
+    "household": "Patel (Hrushik & Swati)",
+    "names": [
+      "Hrushik Patel",
+      "Swati Patel"
+    ]
+  },
+  {
+    "code": "2fb699c8",
+    "household": "Han",
+    "names": [
+      "Andy Han"
+    ]
+  },
+  {
+    "code": "43b009ed",
+    "household": "Pathak",
+    "names": [
+      "Jay Pathak"
+    ]
+  },
+  {
+    "code": "f5640c0c",
+    "household": "Verma (Hannah & Arjun)",
+    "names": [
+      "Hannah Verma",
+      "Arjun Verma",
+      "Vikas Verma",
+      "Radhika Verma"
+    ]
+  },
+  {
+    "code": "e92a18ff",
+    "household": "Wadhawan (Raghav)",
+    "names": [
+      "Raghav mama",
+      "Amrita",
+      "Prerena Wadhawan",
+      "Shubhankar G.",
+      "Shiffali",
+      "Charul",
+      "Eshaas"
+    ]
+  },
+  {
+    "code": "bfc0ea05",
+    "household": "Khanna",
+    "names": [
+      "Natasha",
+      "Arvind",
+      "Nihaal",
+      "Simran",
+      "Anil",
+      "Surbhi"
+    ]
+  },
+  {
+    "code": "82540686",
+    "household": "Kapoor",
+    "names": [
+      "Shiv Kapoor",
+      "Pooja Kapoor",
+      "Kabir Kapoor",
+      "Karan Kapoor"
+    ]
+  },
+  {
+    "code": "419a478b",
+    "household": "Sareen",
+    "names": [
+      "Lovely Mama",
+      "Bhavana"
+    ]
+  },
+  {
+    "code": "78a89fb1",
+    "household": "Chandra (Abhijeet & Ruchi)",
+    "names": [
+      "Abhijeet",
+      "Ruchi",
+      "Ruchi +1"
+    ]
+  },
+  {
+    "code": "65da06fd",
+    "household": "Singh (Harjiv)",
+    "names": [
+      "Harjiv",
+      "Harjiv kid 1",
+      "Harjiv kid 2",
+      "Julia"
+    ]
+  },
+  {
+    "code": "d73cef24",
+    "household": "Madan",
+    "names": [
+      "Mamta",
+      "Nitin",
+      "Suhani"
+    ]
+  },
+  {
+    "code": "563478e6",
+    "household": "Srivastava",
+    "names": [
+      "Ashu Chacha",
+      "Payal",
+      "Arshya"
+    ]
+  },
+  {
+    "code": "c88cbdcf",
+    "household": "Singhvi",
+    "names": [
+      "Ranjit Singhvi",
+      "Ranjit +1"
+    ]
+  },
+  {
+    "code": "d887d876",
+    "household": "Ahuja",
+    "names": [
+      "Anmol Dad",
+      "Anmol Mom",
+      "Shriya",
+      "Meet"
+    ]
+  },
+  {
+    "code": "70a341d0",
+    "household": "Myneni",
+    "names": [
+      "Sunjay",
+      "Zahra"
+    ]
+  },
+  {
+    "code": "22e4d22d",
+    "household": "Tavageri",
+    "names": [
+      "Chinmay",
+      "Bhavs"
+    ]
+  },
+  {
+    "code": "80dbcab3",
+    "household": "Chopra",
+    "names": [
+      "Seema Aunty",
+      "Seema +1",
+      "Rome"
+    ]
+  },
+  {
+    "code": "61b52a71",
+    "household": "Sapra",
+    "names": [
+      "Nitin Sapra",
+      "Nitin +1"
+    ]
+  },
+  {
+    "code": "208b1a26",
+    "household": "Shyam & Aneree",
+    "names": [
+      "Shyam",
+      "Aneree"
+    ]
+  },
+  {
+    "code": "5e28f599",
+    "household": "Patel (Jashvin & Laura)",
+    "names": [
+      "Jashvin",
+      "Laura"
+    ]
+  },
+  {
+    "code": "aba952df",
+    "household": "Kaushal",
+    "names": [
+      "Arjun",
+      "Arjun +1"
+    ]
+  },
+  {
+    "code": "72c8f6a9",
+    "household": "Leschovich",
+    "names": [
+      "Konrad",
+      "Konrad + 1"
+    ]
+  },
+  {
+    "code": "41090ddd",
+    "household": "Patel (Dhruv)",
+    "names": [
+      "Dhruv",
+      "Dhruv + 1"
+    ]
+  },
+  {
+    "code": "dcb6a09b",
+    "household": "Patel (Suneri & Hardik)",
+    "names": [
+      "Suneri",
+      "Hardik",
+      "Steven",
+      "Steven+1",
+      "Gandhi",
+      "Hersh",
+      "Sneha"
+    ]
+  },
+  {
+    "code": "fbaa9c3a",
+    "household": "Verma (Gaurav & Suchi)",
+    "names": [
+      "Gaurav",
+      "Suchi"
+    ]
+  },
+  {
+    "code": "1f5c50ca",
+    "household": "Bhatta",
+    "names": [
+      "Sunjay",
+      "Simma"
+    ]
+  }
+]

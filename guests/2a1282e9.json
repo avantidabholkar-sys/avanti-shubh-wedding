@@ -1,0 +1,18 @@
+{
+  "household": "Rajgopal",
+  "guests": [
+    "Neena Atya",
+    "Shankar Uncle",
+    "Nikita",
+    "Akshay"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

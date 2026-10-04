@@ -1,0 +1,18 @@
+{
+  "household": "Kapoor",
+  "guests": [
+    "Shiv Kapoor",
+    "Pooja Kapoor",
+    "Kabir Kapoor",
+    "Karan Kapoor"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

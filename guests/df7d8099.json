@@ -1,0 +1,19 @@
+{
+  "household": "Varma (Sujata & Shubhendra)",
+  "guests": [
+    "Sujata",
+    "Shubhendra",
+    "Shubh",
+    "Aneesha",
+    "Anmol"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

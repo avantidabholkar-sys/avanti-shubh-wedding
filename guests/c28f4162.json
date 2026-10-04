@@ -1,0 +1,16 @@
+{
+  "household": "Salomon",
+  "guests": [
+    "Andrea",
+    "Charlie"
+  ],
+  "memory": "Andrea and Charlie — the brunches, the long walks, the honest advice. We're so lucky to have you, and so excited to celebrate with you under the cypress trees. (sample — replace with your own)",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

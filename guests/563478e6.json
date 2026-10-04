@@ -1,0 +1,17 @@
+{
+  "household": "Srivastava",
+  "guests": [
+    "Ashu Chacha",
+    "Payal",
+    "Arshya"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

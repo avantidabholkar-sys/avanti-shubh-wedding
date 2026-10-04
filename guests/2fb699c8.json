@@ -1,0 +1,15 @@
+{
+  "household": "Han",
+  "guests": [
+    "Andy Han"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

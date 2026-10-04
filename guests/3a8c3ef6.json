@@ -1,0 +1,15 @@
+{
+  "household": "Desai",
+  "guests": [
+    "Sheena"
+  ],
+  "memory": "Sheena, you've been cheering us on since day one. Pack your best dancing shoes — we already know you'll be the last one off the floor. (sample — replace with your own)",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

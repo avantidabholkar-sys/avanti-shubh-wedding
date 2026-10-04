@@ -1,0 +1,16 @@
+{
+  "household": "Krishnan",
+  "guests": [
+    "Abhi",
+    "Varsha"
+  ],
+  "memory": "Abhi and Varsha, thank you for showing up for us every single time. We can't wait to raise a glass with you in San Miguel. (sample — replace with your own)",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

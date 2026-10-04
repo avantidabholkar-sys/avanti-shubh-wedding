@@ -1,0 +1,19 @@
+{
+  "household": "Tinaikar",
+  "guests": [
+    "Ranjit Uncle",
+    "Deepika Aunty",
+    "Ananya",
+    "Kabir",
+    "Amar"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

@@ -1,0 +1,19 @@
+{
+  "household": "Gokarn",
+  "guests": [
+    "Aparna Aunty",
+    "Nikoo",
+    "Chintan",
+    "Saroo",
+    "Ghalib"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

@@ -1,0 +1,16 @@
+{
+  "household": "Gene",
+  "guests": [
+    "Gene",
+    "Gene +1"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

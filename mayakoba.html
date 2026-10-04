@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Avanti &amp; Shubh · Mayakoba</title>
+  <meta name="description" content="Avanti and Shubh are getting married at Rosewood Mayakoba on the Riviera Maya, Mexico.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Italiana&family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- decide before first paint whether the Welcome gate shows (no ?g= link and nothing remembered) -->
+  <script>if (!/[?&]g=\w/.test(location.search) && !localStorage.getItem("g")) document.documentElement.classList.add("gate");</script>
+  <link rel="stylesheet" href="mayakoba.css">
+</head>
+<body class="home mk" id="top">
+
+<!-- Welcome gate: shown until the guest is identified (or arrives on a ?g= link). Removed by site.js. -->
+<section class="welcome">
+  <picture class="welcome-art">
+    <source media="(max-width: 760px)" srcset="images/mayakoba/welcome-phone.jpg">
+    <img src="images/mayakoba/welcome.jpg" alt="">
+  </picture>
+  <div class="welcome-card">
+    <h1 class="welcome-title">Welcome</h1>
+
+    <form class="welcome-form">
+      <label class="sr-only" for="welcome-name">Your name</label>
+      <input id="welcome-name" type="text" autocomplete="name" placeholder="Enter your name" required>
+      <button type="submit" aria-label="Continue"><svg width="28" height="14" viewBox="0 0 28 14" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 7h26M20 1l6 6-6 6"/></svg></button>
+    </form>
+
+    <div class="welcome-pick" hidden>
+      <p class="welcome-q"></p>
+      <div class="pills welcome-options"></div>
+      <p class="welcome-back"><a href="#">Try another name</a></p>
+    </div>
+
+    <div class="welcome-confirm" hidden>
+      <p class="welcome-q"></p>
+      <div class="welcome-actions">
+        <button class="btn btn-dark welcome-yes" type="button">Yes, that’s us</button>
+        <button class="btn btn-light welcome-no" type="button">Not me</button>
+      </div>
+    </div>
+
+    <p class="welcome-miss" hidden>We couldn’t find that name. Try your full name as it appears on your invitation, or text us at [[PHONE]] and we’ll sort it out.</p>
+  </div>
+</section>
+
+<nav class="nav" aria-label="Site">
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+    <svg class="ico-open" width="26" height="18" viewBox="0 0 26 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 1h26M0 9h26M0 17h26"/></svg>
+    <svg class="ico-close" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 1l18 18M19 1L1 19"/></svg>
+  </button>
+  <div class="nav-links" id="menu">
+  <a href="#story">Our Story</a>
+  <a href="#events">Schedule</a>
+  <a href="#travel">Travel</a>
+  <a href="#stay">Stay</a>
+  <a href="#registry">Registry</a>
+  <a class="nav-note" href="#note" hidden>Your note</a>
+  </div>
+  <a class="nav-rsvp" href="[[RSVP_URL]]" target="_blank" rel="noopener">RSVP</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-head">
+    <div>
+      <p class="eyebrow">The wedding of</p>
+      <h1><span class="line">Avanti</span> <span class="line"><span class="amp">&amp;</span> Shubh</span></h1>
+    </div>
+    <p class="hero-when">April 16 – 17<br>Mayakoba, Riviera Maya, MX</p>
+  </div>
+  <img class="hero-art" src="images/mayakoba/hero.jpg" width="1280" height="720"
+       alt="Painting of a white sand beach with striped umbrellas, a wooden boat on a turquoise canal, coconut palms, and a white stone wall with a gate hung with marigold garlands">
+</header>
+
+<main>
+  <section id="story" class="band band-forest story">
+    <h2>Our Story</h2>
+    <figure class="story-photo"><img src="images/us.jpg" alt="Avanti and Shubh laughing together outdoors"></figure>
+    <div class="prose">
+      <p>We met the old-fashioned way: through friends who knew us better than we knew each other.</p>
+      <p>Rohan and Avanti grew up together on Staten Island in their earliest years — and years later, by complete chance, ended up in the same apartment building. That’s where Sonali and Avanti became neighborhood buddies: movie nights, dinners, and plenty of Avanti complaining about chronic singlehood. Meanwhile, Shubh and Rohan had their own rhythm — sports, nights out, and the kind of friendship that eventually turns into matchmaking.</p>
+      <p>When Shubh was finally single (and finally ready), Rohan suggested he date Avanti. They set us up on a true blind date: no numbers, no Instagram, no pre-stalking. Just two people walking into a room.</p>
+      <p>The rest might have been history — until Avanti tore her ACL. Shubh showed up as an incredible caretaker, the kind of steady kindness that makes everything clearer. Avanti was sold. Within a couple of months we were seeing each other every night, and eventually we moved in together.</p>
+      <p>What we share is simple and a little ridiculous in the best way: fitness and health, laughing until it hurts, cuddling, traveling, AI rabbit holes, the same kinds of food, being unapologetically bougie, and squeezing the most out of life. Above all, Avanti fell for how kind Shubh is — not just to her, but to everyone she loves.</p>
+      <p>And somehow, two childhood friends, one building, and one perfectly timed blind date got us here.</p>
+    </div>
+  </section>
+
+  <section id="events" class="events">
+    <div class="events-head">
+      <p class="eyebrow">Schedule</p>
+      <p class="events-invite" hidden></p>
+    </div>
+    <div class="event-grid">
+      <article class="event ev-welcome">
+        <div class="event-card"><div class="art"><img src="images/mayakoba/hammock.jpg" alt=""></div></div>
+        <h3>Welcome<br>Dinner</h3>
+        <p class="event-when">Fri, April 16 · 7–11 pm</p>
+        <p class="event-where">[[On the beach]] · Barefoot linen &amp; bright colours</p>
+      </article>
+
+      <article class="event ev-ceremony">
+        <div class="event-card"><div class="art"><img src="images/mayakoba/boat.jpg" alt=""></div></div>
+        <h3>Baraat &amp;<br>Ceremony</h3>
+        <p class="event-when">Sat, April 17 · Baraat by boat 3 pm, vows 4 pm</p>
+        <p class="event-where">[[Canal lawn]] · Indian formal</p>
+      </article>
+
+      <article class="event ev-reception">
+        <div class="event-card"><div class="art"><img src="images/mayakoba/candelabra.jpg" alt=""></div></div>
+        <h3>Cocktails<br>&amp; Dinner</h3>
+        <p class="event-when">Sat, April 17 · Cocktails 6:30 - 11pm</p>
+        <p class="event-where">[[Beach club terrace]] · White tie</p>
+      </article>
+
+      <article class="event ev-after">
+        <div class="event-card"><div class="art"><img src="images/mayakoba/toucan.jpg" alt=""></div></div>
+        <h3>After<br>Party</h3>
+        <p class="event-when">Sat, April 17 · 11:30 pm – late</p>
+        <p class="event-where">[[Venue name]] · Keep the glam</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="travel" class="band band-tan travel">
+    <h2>Travel</h2>
+    <div class="col">
+      <p>Mayakoba sits between Playa del Carmen and Cancún on the Riviera Maya. Fly into Cancún, then it’s a straight run down the coast highway — book a private transfer ahead of time and the hotel will have you at check-in within the hour.</p>
+      <h3>Cancún (CUN)</h3>
+      <p>The main gateway, about 45 minutes to 1 hour by car. Direct flights from most major US, Canadian and European cities, so this is the one to book.</p>
+      <h3>Tulum (TQO)</h3>
+      <p>The new Felipe Carrillo Puerto airport, about 1 hour 15 minutes north by car. Fewer routes, but handy if you’re pairing the wedding with a few days in Tulum. [[Confirm]]</p>
+      <h3>Cozumel (CZM)</h3>
+      <p>An island hop away: land on Cozumel, take the 45-minute ferry to Playa del Carmen, then a 15-minute drive. Scenic, but only worth it if the fares are irresistible.</p>
+      <p>We’ll share a recommended car service (and any group shuttle times) closer to the wedding. Skip renting a car — the resort has shuttles and bikes, and the canals have boats.</p>
+    </div>
+  </section>
+
+  <section id="stay" class="stay">
+    <h2>Stay</h2>
+    <div class="col">
+      <p>Everything happens inside Mayakoba, a gated resort community of four hotels threaded together by canals and a shared white-sand beach — so wherever you stay, you’re a boat ride from the party.</p>
+
+      <p class="eyebrow">Our hotel</p>
+      <h3>Rosewood Mayakoba</h3>
+      <p>Home to the ceremony and reception, and where we’d love as many of you as possible to stay. Lagoon and beachfront suites with private plunge pools. We’ve reserved a room block at a special rate.</p>
+      <ul>
+        <li>Book by: [[February 28, 2027]]</li>
+        <li>Code / link: [[VARMADABS2027]]</li>
+        <li>Nights: Thu/Fri through Sun</li>
+      </ul>
+
+      <p class="eyebrow">Nearby</p>
+      <h3>Banyan Tree Mayakoba</h3>
+      <p>Pool villas tucked into the mangroves, next door on the same canals. Serene, private and a short boat ride from the Rosewood.</p>
+      <h3>Fairmont Mayakoba</h3>
+      <p>The most relaxed option in the community, with big family-friendly pools and a lively beach club. Great value for groups.</p>
+      <h3>Andaz Mayakoba</h3>
+      <p>Bright, modern and a little more playful — beachfront rooms, good restaurants and the closest to the main gate.</p>
+      <h3>A villa in Playa del Carmen</h3>
+      <p>Travelling as a group or with kids? Playacar and the beachfront streets of Playa del Carmen have large rentals ten minutes down the road.</p>
+    </div>
+  </section>
+
+  <section id="registry" class="band band-terracotta registry">
+    <div class="wide">
+      <p class="registry-lead">You are traveling across the globe to celebrate with us in Mexico, so your presence means the world to us and is all we ask for.</p>
+      <p class="registry-note">If you’d still like to contribute to our registry or honeymoon funds, please use the link below.</p>
+      <a class="btn btn-light" href="[[REGISTRY_URL]]" target="_blank" rel="noopener">Registry</a>
+    </div>
+    <img class="cypress c1" src="images/mayakoba/palm.png" alt="">
+    <img class="cypress c2" src="images/mayakoba/palm.png" alt="">
+    <img class="cypress c3" src="images/mayakoba/palm.png" alt="">
+  </section>
+
+</main>
+
+<!-- Personal note, opened once the guest is identified; reopened from "Your note" in the nav -->
+<dialog class="note">
+  <figure class="note-photo" hidden><img alt=""></figure>
+  <h2 class="note-name g-household"></h2>
+  <div class="prose note-memory"></div>
+  <p class="note-aside" hidden></p>
+  <p class="note-sign">With love,<br>Avanti &amp; Shubh</p>
+  <form class="note-close" method="dialog"><button type="submit" aria-label="Close"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M4.5 4.5l9 9M13.5 4.5l-9 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button></form>
+</dialog>
+
+<script src="site.js"></script>
+</body>
+</html>

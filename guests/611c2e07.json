@@ -1,0 +1,18 @@
+{
+  "household": "Gonzalez",
+  "guests": [
+    "Glo",
+    "Gustavo",
+    "Carola",
+    "Armando"
+  ],
+  "memory": "Glo, Gustavo, Carola and Armando — gracias for the recommendations, the late-night tacos, and teaching us that every celebration needs mariachi. Mexico wouldn't feel right without you. (sample — replace with your own)",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

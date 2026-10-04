@@ -1,0 +1,21 @@
+{
+  "household": "Patel (Suneri & Hardik)",
+  "guests": [
+    "Suneri",
+    "Hardik",
+    "Steven",
+    "Steven+1",
+    "Gandhi",
+    "Hersh",
+    "Sneha"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

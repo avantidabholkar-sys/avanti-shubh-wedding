@@ -1,0 +1,16 @@
+{
+  "household": "Sardesai",
+  "guests": [
+    "Gira Aunty",
+    "Jagdeesh Uncle"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

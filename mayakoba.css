@@ -1,0 +1,34 @@
+/* Mayakoba edition: same layout as the home page, beach palette sampled from the paintings. */
+.mk {
+  --paper: #f2d7b6;   /* sky of the beach painting */
+  --teal: #537b75;    /* candelabra card */
+  --deep: #34524c;    /* story band, buttons */
+  background: var(--paper);
+}
+
+.mk .band-forest { background: var(--deep); }
+.mk .band-tan { background: #cea87c; }
+.mk .band-terracotta { background: #d27252; }
+.mk .btn-dark, .mk .nav .nav-rsvp { background: var(--deep); }
+.mk .hero .amp { color: var(--teal); }
+
+.mk .ev-welcome   { --bg: #d2aa7b; }
+.mk .ev-ceremony  { --bg: #da7150; }
+.mk .ev-reception { --bg: var(--teal); }
+.mk .ev-after     { --bg: #2c3e2e; }
+
+/* each piece was painted on its card colour, so the whole image can fill the card */
+.mk .art { inset: 0; width: 100%; height: 100%; }
+.mk .art img { position: static; width: 100%; height: 100%; object-fit: cover; }
+.mk .ev-welcome .art img, .mk .ev-after .art img { object-fit: contain; } /* tall subjects: keep the full hammock and toucan */
+.mk .ev-reception .art img { object-position: center bottom; } /* crop the empty teal above the candelabra */
+
+/* registry: three coconut palms instead of cypresses */
+.mk .c1 { right: 12%; height: 88%; }
+.mk .c2 { right: 4%; height: 64%; }
+.mk .c3 { right: 26%; height: 46%; }
+
+/* welcome gate + note in the beach palette */
+.mk .welcome { background: #f2d7b6; }
+.mk .welcome-options button:hover, .mk .welcome-options button:focus-visible { background: var(--deep); border-color: var(--deep); }
+.mk .nav-note { color: var(--teal); }

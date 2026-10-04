@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>RSVP · Avanti &amp; Shubh</title>
+  <meta name="description" content="Let Avanti and Shubh know whether you can join the wedding weekend.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Italiana&family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Site">
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+    <svg class="ico-open" width="26" height="18" viewBox="0 0 26 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 1h26M0 9h26M0 17h26"/></svg>
+    <svg class="ico-close" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 1l18 18M19 1L1 19"/></svg>
+  </button>
+  <div class="nav-links" id="menu">
+  <a href="index.html#story">Our Story</a>
+  <a href="index.html#events">Events</a>
+  <a href="index.html#travel">Travel</a>
+  <a href="index.html#stay">Stay</a>
+  <a href="index.html#registry">Registry</a>
+  </div>
+  <a class="nav-rsvp" href="rsvp.html" aria-current="page">RSVP</a>
+</nav>
+
+<header class="page-head">
+  <p class="eyebrow">Kindly reply by [[February 1, 2027]]</p>
+  <h1>RSVP</h1>
+  <p class="page-intro">One reply per household is perfect — just list everyone who’s coming.</p>
+</header>
+
+<main class="section narrow">
+  <!-- Posts straight to a Google Form; responses land in its linked Sheet. Field names are the form's entry ids. -->
+  <form class="rsvp-form" action="https://docs.google.com/forms/d/e/1FAIpQLScttXKaT0u5snRNCxkBL5IjLkmmkUimJ7CEJwNrCCcscQtUSA/formResponse" method="POST" novalidate>
+    <!-- household code from the personal link, so each reply matches a row in the Guests tab -->
+    <input type="hidden" name="entry.1218803236" data-code>
+    <div class="field">
+      <label for="rsvp-name">Full name</label>
+      <input id="rsvp-name" name="entry.714473713" type="text" autocomplete="name" required>
+    </div>
+
+    <div class="field">
+      <label for="rsvp-email">Email</label>
+      <input id="rsvp-email" name="entry.1804651252" type="email" autocomplete="email" required>
+    </div>
+
+    <fieldset class="field">
+      <legend>Will you join us?</legend>
+      <div class="pills">
+        <label><input type="radio" name="entry.163298865" value="Joyfully accepts" required><span>Joyfully accepts</span></label>
+        <label><input type="radio" name="entry.163298865" value="Regretfully declines"><span>Regretfully declines</span></label>
+      </div>
+    </fieldset>
+
+    <div class="if-attending">
+      <fieldset class="field">
+        <legend>Which events will you attend?</legend>
+        <div class="pills">
+          <label><input type="checkbox" name="entry.351597934" value="Welcome Dinner"><span>Welcome Dinner</span></label>
+          <label><input type="checkbox" name="entry.351597934" value="Baraat & Ceremony"><span>Baraat &amp; Ceremony</span></label>
+          <label><input type="checkbox" name="entry.351597934" value="Cocktails & Dinner"><span>Cocktails &amp; Dinner</span></label>
+          <label><input type="checkbox" name="entry.351597934" value="After Party"><span>After Party</span></label>
+        </div>
+      </fieldset>
+
+      <div class="field field-short">
+        <label for="rsvp-count">Number of guests, including you</label>
+        <input id="rsvp-count" name="entry.234121591" type="number" inputmode="numeric" min="1" max="10" value="1">
+      </div>
+
+      <div class="field">
+        <label for="rsvp-guests">Names of everyone attending</label>
+        <textarea id="rsvp-guests" name="entry.873485831" rows="3" placeholder="One per line"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="rsvp-diet">Dietary restrictions or allergies</label>
+        <textarea id="rsvp-diet" name="entry.1167615406" rows="3" placeholder="Vegetarian, nut allergy, …"></textarea>
+      </div>
+    </div>
+
+    <p class="form-error" hidden>Please fill in the highlighted fields.</p>
+    <button class="btn btn-dark" type="submit">Send reply</button>
+    <p class="form-fallback" hidden>Something went wrong sending your reply. <a href="https://docs.google.com/forms/d/e/1FAIpQLScttXKaT0u5snRNCxkBL5IjLkmmkUimJ7CEJwNrCCcscQtUSA/viewform" target="_blank" rel="noopener">Reply here instead</a>.</p>
+  </form>
+
+  <div class="rsvp-thanks" hidden>
+    <p class="eyebrow">Thank you</p>
+    <h2>We’ve got your reply</h2>
+    <p>We can’t wait to celebrate with you. Travel and hotel details are on the <a href="index.html#travel">main page</a>, and we’ll be in touch with anything else you need to know.</p>
+  </div>
+</main>
+
+<script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "household": "Mynam",
+  "guests": [
+    "Anurag Mynam",
+    "Nirali Mynam"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

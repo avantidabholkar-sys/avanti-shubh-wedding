@@ -1,0 +1,130 @@
+/* 5 x 7 in invitation: page 1 front, page 2 back. Shares the site's fonts and palette. */
+@page { size: 5in 7in; margin: 0; }
+
+:root {
+  --paper: #f2dfc1;
+  --ink: #2e2622;
+  --text: #231a14;
+  --muted: #6b5d55;
+  --accent: #818160;
+  --hairline: rgb(45 22 18 / .35);
+  --display: Italiana, "Bodoni 72", Didot, Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; }
+
+body {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: var(--text);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.card {
+  position: relative;
+  width: 5in;
+  height: 7in;
+  overflow: hidden;
+  background: var(--paper);
+  break-after: page;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 9.5pt;
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---- front ---- */
+.front { padding: .55in .4in 0; }
+
+.front .eyebrow { margin-bottom: .22in; }
+
+.front h1 {
+  margin: 0;
+  font: 400 54pt/.9 var(--display);
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.front h1 .line { display: block; white-space: nowrap; }
+
+.front .amp {
+  font: 400 .62em/1 "Dancing Script", cursive;
+  color: var(--accent);
+  text-transform: none;
+}
+
+.front .when {
+  margin: .22in 0 0;
+  font-size: 11.5pt;
+  line-height: 1.4;
+}
+
+.front .art {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3.55in;
+  width: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  mask: linear-gradient(transparent, #000 18%);
+  -webkit-mask: linear-gradient(transparent, #000 18%);
+}
+
+/* ---- back ---- */
+.back { padding: .42in .4in .38in; display: flex; flex-direction: column; }
+
+.back .eyebrow { margin-bottom: .24in; }
+
+.events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .24in .28in;
+  flex: 1;
+}
+
+.event { display: flex; flex-direction: column; }
+
+.tile {
+  width: 100%;
+  height: 1.28in;
+  border-radius: 4pt;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.tile img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+.event h3 {
+  margin: .13in 0 .07in;
+  font: 400 17pt/.88 var(--display);
+  letter-spacing: .01em;
+  text-transform: uppercase;
+  color: #1f2418;
+}
+
+.event p { margin: 0; font-size: 9.2pt; line-height: 1.3; }
+
+.rsvp {
+  margin-top: .22in;
+  padding-top: .16in;
+  border-top: 1px solid var(--hairline);
+  text-align: center;
+}
+
+.rsvp p { margin: 0; font-size: 10.5pt; line-height: 1.4; }
+.rsvp .site { font: 400 15pt/1.2 var(--display); letter-spacing: .02em; color: var(--ink); }
+
+/* on screen: show the two sides stacked on a dark desk */
+@media screen {
+  body { display: flex; flex-direction: column; align-items: center; gap: 24px; padding: 24px; background: #3a3a3a; }
+  .card { box-shadow: 0 10px 40px rgb(0 0 0 / .4); }
+}

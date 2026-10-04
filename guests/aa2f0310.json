@@ -1,0 +1,16 @@
+{
+  "household": "Wucherpfennig",
+  "guests": [
+    "Thomas",
+    "Raena"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

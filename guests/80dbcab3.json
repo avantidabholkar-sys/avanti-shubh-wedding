@@ -1,0 +1,17 @@
+{
+  "household": "Chopra",
+  "guests": [
+    "Seema Aunty",
+    "Seema +1",
+    "Rome"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

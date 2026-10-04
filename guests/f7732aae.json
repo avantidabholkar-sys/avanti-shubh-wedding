@@ -1,0 +1,16 @@
+{
+  "household": "Parikh",
+  "guests": [
+    "Sid",
+    "Shikha"
+  ],
+  "memory": "Sid and Shikha, you two make every room warmer. We can't wait to celebrate with you and finally get that group photo right. (sample — replace with your own)",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

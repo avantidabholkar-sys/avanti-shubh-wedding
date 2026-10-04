@@ -1,0 +1,16 @@
+{
+  "household": "Ching",
+  "guests": [
+    "Jon Ching",
+    "Jon Ching +1"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

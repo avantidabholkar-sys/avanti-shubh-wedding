@@ -1,0 +1,22 @@
+{
+  "household": "Wadhawan (Tejas)",
+  "guests": [
+    "Tejas",
+    "Ayushi",
+    "Mihir",
+    "Ridhima",
+    "Mahira",
+    "Shalu",
+    "Minali",
+    "Kavita"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

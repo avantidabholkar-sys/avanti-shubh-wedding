@@ -1,0 +1,16 @@
+{
+  "household": "Tavageri",
+  "guests": [
+    "Chinmay",
+    "Bhavs"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

@@ -1,0 +1,16 @@
+{
+  "household": "Shyam & Aneree",
+  "guests": [
+    "Shyam",
+    "Aneree"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

@@ -1,0 +1,17 @@
+{
+  "household": "Madan",
+  "guests": [
+    "Mamta",
+    "Nitin",
+    "Suhani"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

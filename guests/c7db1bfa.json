@@ -1,0 +1,16 @@
+{
+  "household": "Naziazeni",
+  "guests": [
+    "Victor",
+    "Veronica"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

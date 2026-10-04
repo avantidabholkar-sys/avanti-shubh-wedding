@@ -1,0 +1,19 @@
+{
+  "household": "Chang",
+  "guests": [
+    "Vince",
+    "Jillian",
+    "Evan",
+    "Evan +1",
+    "Justin"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

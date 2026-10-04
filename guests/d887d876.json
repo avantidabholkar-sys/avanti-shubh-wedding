@@ -1,0 +1,18 @@
+{
+  "household": "Ahuja",
+  "guests": [
+    "Anmol Dad",
+    "Anmol Mom",
+    "Shriya",
+    "Meet"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

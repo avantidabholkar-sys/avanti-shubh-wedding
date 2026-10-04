@@ -1,0 +1,16 @@
+{
+  "household": "Kulkarni",
+  "guests": [
+    "Vrinda Aunty",
+    "Sudhir Uncle"
+  ],
+  "memory": "",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}

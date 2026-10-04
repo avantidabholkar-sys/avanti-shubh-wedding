@@ -1,0 +1,18 @@
+{
+  "household": "Divekar",
+  "guests": [
+    "Ajay",
+    "Sonali D",
+    "Siya",
+    "Nirja"
+  ],
+  "memory": "Ajay, Sonali, Siya and Nirja — you've been family for as long as we can remember. Every big moment in our lives somehow ended up at your dinner table, so of course you had to be here for this one. (sample — replace with your own)",
+  "photo": "",
+  "events": [
+    "welcome",
+    "ceremony",
+    "reception",
+    "afterparty"
+  ],
+  "note": ""
+}
